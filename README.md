@@ -5,6 +5,7 @@ When run, this docker container will automatically start a basic IRC server on p
 
 #### Usage: ####
 sudo docker build -t ngircd
+
 docker run -name ngircd_container -p 6667:6667 -t ngircd
 
 #### Requirements: ####
